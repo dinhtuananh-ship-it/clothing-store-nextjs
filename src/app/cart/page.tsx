@@ -70,7 +70,10 @@ export default function CartPage() {
 
             <button
               onClick={() =>
-                decreaseQuantity(item.id)
+                decreaseQuantity(
+  item.id,
+  item.size
+)
               }
               className="
               border
@@ -87,7 +90,10 @@ export default function CartPage() {
 
             <button
               onClick={() =>
-                increaseQuantity(item.id)
+                increaseQuantity(
+  item.id,
+  item.size
+)
               }
               className="
               border
@@ -102,8 +108,11 @@ export default function CartPage() {
 
           <button
             onClick={() =>
-              removeFromCart(item.id)
-            }
+  removeFromCart(
+    item.id,
+    item.size
+  )
+}
             className="
             mt-4
             bg-red-500
