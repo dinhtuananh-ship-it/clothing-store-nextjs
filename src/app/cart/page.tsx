@@ -1,7 +1,7 @@
 "use client";
 
 import { useCartStore } from "@/store/cartStore";
-
+import Link from "next/link";
 export default function CartPage() {
 
   const cart = useCartStore(
@@ -134,7 +134,24 @@ export default function CartPage() {
         {" "}
         {total.toLocaleString()}đ
       </div>
+<div className="mt-8">
 
+  <Link
+    href="/checkout"
+    className="
+    inline-block
+    bg-green-600
+    text-white
+    px-8
+    py-3
+    rounded-lg
+    hover:bg-green-700
+    "
+  >
+    Thanh toán
+  </Link>
+
+</div>
     </main>
   );
 }

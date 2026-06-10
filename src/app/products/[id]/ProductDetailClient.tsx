@@ -70,7 +70,17 @@ export default function ProductDetailClient({
             </div>
 
           </div>
+<div className="mt-8">
 
+  <h3 className="font-semibold text-lg mb-3">
+    Mô tả sản phẩm
+  </h3>
+
+  <p className="text-gray-600 leading-7">
+    {product.description}
+  </p>
+
+</div>
           <AddToCartButton
             product={product}
             selectedSize={selectedSize}

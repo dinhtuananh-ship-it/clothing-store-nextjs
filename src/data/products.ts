@@ -11,6 +11,8 @@ export const products: Product[] = [
 
     sizes: ["S", "M", "L", "XL"],
     colors: ["Đen", "Trắng"],
+    description:
+    "Áo thun cotton 100%, mềm mại, thấm hút mồ hôi tốt, phù hợp mặc hàng ngày."
   },
 
   {
@@ -20,9 +22,12 @@ export const products: Product[] = [
     image:
       "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=800",
     category: "Hoodie",
+    
 
     sizes: ["M", "L", "XL"],
     colors: ["Đen", "Xám"],
+    description:
+    "Áo thun cotton 100%, mềm mại, thấm hút mồ hôi tốt, phù hợp mặc hàng ngày."
   },
 
   {
@@ -35,6 +40,8 @@ export const products: Product[] = [
 
     sizes: ["28", "30", "32", "34"],
     colors: ["Xanh"],
+    description:
+    "Áo thun cotton 100%, mềm mại, thấm hút mồ hôi tốt, phù hợp mặc hàng ngày."
   },
 
   {
@@ -47,5 +54,7 @@ export const products: Product[] = [
 
     sizes: ["M", "L", "XL"],
     colors: ["Đen"],
+    description:
+    "Áo thun cotton 100%, mềm mại, thấm hút mồ hôi tốt, phù hợp mặc hàng ngày."
   },
 ];
